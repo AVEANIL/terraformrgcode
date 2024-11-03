@@ -10,3 +10,7 @@ resource "azurerm_resource_group" "rg_block2" {
   name = "myrg3"
   location= "westus"
 }
+resource "azurerm_resource_group" "rg_block3" {
+  name = "myrg4"
+  location= "westus"
+}
